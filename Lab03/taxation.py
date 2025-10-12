@@ -24,3 +24,5 @@ if user_input.lower() == "m":
         taxes = 1600 + (0.15 * income)
     elif income > 64000:
         taxes = 8800 + (0.25 * income)
+
+print("The taxes due to be paid are:", taxes)
