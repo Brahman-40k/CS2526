@@ -20,7 +20,7 @@ for i in range(len(table)):
                 table[i][j] = 1
             else:
                 table[i][j] = 0
-# step IV
+# Step: IV,V,VI
 for a in range(len(table)):
     for b in range(len(table[a])):
         table[0][b] = 0
