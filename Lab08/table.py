@@ -29,8 +29,9 @@ for x in range(len(table)):
     for y in range(len(table[x])):
         table[x][0] = 1
         table[x][-1] = 1
-
+total = 0
 for row in table:
     for column in row:
-        print(column, end=" ")
-    print()
+        total += column
+
+print(total)
